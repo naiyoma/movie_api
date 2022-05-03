@@ -46,6 +46,6 @@ class Movie(models.Model):
     title = models.CharField(max_length=60)
     genre = models.CharField(choices=genre_choices, max_length=10,default=30)
     popularity = models.CharField(choices=popularity_choice, max_length=60)
-
+    poster = models.ImageField(upload_to='photos', default="no-image")
     def __str__(self):
         return self.title

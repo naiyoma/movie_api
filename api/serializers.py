@@ -17,6 +17,7 @@ class MovieSerializer(serializers.HyperlinkedModelSerializer):
             'title',
             'genre',
             'popularity',
+            'poster'
         )
         
 

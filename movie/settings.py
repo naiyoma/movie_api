@@ -82,15 +82,16 @@ WSGI_APPLICATION = 'movie.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'testdb',
-        'USER': 'admin',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
-        'PORT': 5433,
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd24j87tep4qbq7',
+        'USER': 'ohnvjnvqjzfadj',
+        'PASSWORD': '5abc91b462bddbdcff69af947033811a1ec614f8989da4bd5327f0e166fad9f8',
+        'HOST': 'ec2-3-211-6-217.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
+#postgres://ohnvjnvqjzfadj:5abc91b462bddbdcff69af947033811a1ec614f8989da4bd5327f0e166fad9f8@ec2-3-211-6-217.compute-1.amazonaws.com:5432/d24j87tep4qbq7
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators

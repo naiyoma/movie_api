@@ -41,7 +41,7 @@ Start the server
 
 ###### To LIST all movies Created 
 
-###### And navigate to http://127.0.0.1:8000/movie/ and GET
+###### navigate to http://127.0.0.1:8000/movie/ and GET
 
 ###### Navigate to https://monamovieapi.herokuapp.com/movie/ to acess the deployed version of the `API`
 

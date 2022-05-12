@@ -3,11 +3,15 @@
 ### The first thing to do is to clone the repository:
 
 $ `git clone https://github.com/naiyoma/movie_api.git`
+
+
 $ `cd movie`
 
 ### Create a virtual environment to install dependencies in and activate it:
 
 $ `virtualenv2 --no-site-packages env`
+
+
 $ `source env/bin/activate`
 
 ### Then install the dependencies:
@@ -15,6 +19,7 @@ $ `source env/bin/activate`
 (env)$ `pip install -r requirements.txt`
 
 Start the server
+
 (env)$ `python manage.py runserver`
 
 
